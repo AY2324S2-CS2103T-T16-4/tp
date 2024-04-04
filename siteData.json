@@ -117,6 +117,8 @@
         "editing-a-student-edit": "Editing a student : edit",
         "locating-students-by-name-find": "Locating students by name: find",
         "deleting-a-person-delete": "Deleting a person : delete",
+        "add-a-lessson-schedule-schedule": "Add a lessson schedule : schedule",
+        "mark-a-lessson-schedule-schedule": "Mark a lessson schedule : schedule",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-program-exit": "Exiting the program : exit",
         "saving-the-data": "Saving the data",
