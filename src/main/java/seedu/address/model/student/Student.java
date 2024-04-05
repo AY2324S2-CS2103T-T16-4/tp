@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import seedu.address.commons.util.ToStringBuilder;
 /**
  * Represents a Student in the address book.
@@ -72,6 +74,10 @@ public class Student {
      */
     public List<Lesson> getLessons() {
         return lessons;
+    }
+
+    public ObservableList<Lesson> getObservableList() {
+        return FXCollections.observableList(this.lessons);
     }
 
     public Remark getRemark() {
