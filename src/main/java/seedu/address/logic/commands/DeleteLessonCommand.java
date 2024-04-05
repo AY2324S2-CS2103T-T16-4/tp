@@ -1,20 +1,21 @@
 package seedu.address.logic.commands;
 
+import static java.util.Objects.requireNonNull;
+import static seedu.address.model.Model.PREDICATE_SHOW_ALL_STUDENTS;
+
+import java.util.List;
+
 import javafx.collections.ObservableList;
 import seedu.address.commons.core.index.Index;
-import seedu.address.commons.util.ToStringBuilder;
 import seedu.address.logic.Messages;
 import seedu.address.logic.commands.exceptions.CommandException;
 import seedu.address.model.Model;
 import seedu.address.model.student.Lesson;
 import seedu.address.model.student.Student;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import static java.util.Objects.requireNonNull;
-import static seedu.address.commons.util.CollectionUtil.requireAllNonNull;
-import static seedu.address.model.Model.PREDICATE_SHOW_ALL_STUDENTS;
+/**
+ * Deletes a lesson to the student identified using it's displayed index from the address book.
+ */
 
 public class DeleteLessonCommand extends Command {
     public static final String COMMAND_WORD = "remove";
@@ -37,6 +38,12 @@ public class DeleteLessonCommand extends Command {
         this.index = index;
     }
 
+    /**
+     * To execute given a model.
+     * @param model {@code Model} which the command should operate on.
+     * @return The command result.
+     * @throws CommandException If error during execution.
+     */
     public CommandResult execute(Model model) throws CommandException {
         requireNonNull(model);
         List<Student> lastShownList = model.getFilteredStudentList();
