@@ -1,5 +1,11 @@
 package seedu.address.logic.commands;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static seedu.address.testutil.Assert.assertThrows;
+import static seedu.address.testutil.TypicalStudents.getTypicalAddressBook;
+
+import org.junit.jupiter.api.Test;
+
 import seedu.address.commons.core.index.Index;
 import seedu.address.logic.commands.exceptions.CommandException;
 import seedu.address.model.Model;
@@ -8,10 +14,7 @@ import seedu.address.model.UserPrefs;
 import seedu.address.model.student.Lesson;
 import seedu.address.model.student.Student;
 
-import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-import static seedu.address.testutil.TypicalStudents.getTypicalAddressBook;
 
 class DeleteLessonCommandTest {
 
@@ -21,7 +24,8 @@ class DeleteLessonCommandTest {
     public void execute_validIndex_success() throws CommandException {
         Student studentToEdit = model.getFilteredStudentList().get(0); // assuming 0 is a valid index
         Lesson lessonToDelete = studentToEdit.getObservableList().get(0); // assuming 0 is a valid lesson index
-        DeleteLessonCommand deleteLessonCommand = new DeleteLessonCommand(Index.fromZeroBased(0), Index.fromZeroBased(0));
+        DeleteLessonCommand deleteLessonCommand = new DeleteLessonCommand(Index.fromZeroBased(0),
+                Index.fromZeroBased(0));
 
         CommandResult commandResult = deleteLessonCommand.execute(model);
 
@@ -36,5 +40,5 @@ class DeleteLessonCommandTest {
 
         assertThrows(CommandException.class, () -> deleteLessonCommand.execute(model));
     }
-    
+
 }
