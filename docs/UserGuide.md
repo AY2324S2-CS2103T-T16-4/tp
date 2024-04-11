@@ -107,13 +107,13 @@ Shows a message explaning how to access the help page.
 Format: `help`
 
 
-### Adding a person: `add`
+### Adding a student: `add`
 
 Adds a student to the address book.
 
 Format: `add n/NAME p/PHONE_NUMBER e/EMAIL a/ADDRESS s/SUBJECT [l/LESSON]…​`
 
-<box type="tip" seamless>
+* The subject field must begin with a capital letter.
 
 **Tip:** A student can have any number of lessons (including 0)
 </box>
@@ -178,7 +178,7 @@ Examples:
 * `list` followed by `delete 2` deletes the 2nd student in TutorTrack.
 * `find Jessica Jane` followed by `delete 1` deletes the 1st person in the results of the `find` command.
 
-### Add a lessson schedule : `schedule`
+### Add a lesson schedule : `schedule`
 
 Adds a lesson to a specific student.
 
