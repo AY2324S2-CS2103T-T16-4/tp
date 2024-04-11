@@ -111,7 +111,7 @@
       "title": "User Guide",
       "headings": {
         "tutortrack-user-guide": "TutorTrack User Guide",
-        "what-is-in-this-user-guide": "What is in this user guide",
+        "what-is-in-this-user-guide": "What is in this user guide:",
         "how-to-use-this-guide": "How to use this guide",
         "quick-start": "Quick start",
         "features": "Features",
@@ -122,7 +122,7 @@
         "locating-students-by-name-find": "Locating students by name: find",
         "deleting-a-person-delete": "Deleting a person : delete",
         "add-a-lessson-schedule-schedule": "Add a lessson schedule : schedule",
-        "mark-a-lessson-schedule-schedule": "Mark a lessson schedule : schedule",
+        "mark-a-lessson-schedule-mark": "Mark a lessson schedule : mark",
         "add-remark-to-a-student-remark": "Add remark to a student : remark",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-program-exit": "Exiting the program : exit",
