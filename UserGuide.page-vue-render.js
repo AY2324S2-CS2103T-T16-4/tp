@@ -47,7 +47,7 @@ with(this){return _c('ol',[_c('li',[_v("Refer to the "),_c('a',{attrs:{"href":"#
 with(this){return _c('h2',{attrs:{"id":"features"}},[_v("Features"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#features","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('h3',{attrs:{"id":"viewing-help-help"}},[_v("Viewing help : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("help")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#viewing-help-help","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h3',{attrs:{"id":"1-viewing-help-help"}},[_v("1. Viewing help : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("help")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#1-viewing-help-help","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('a',{attrs:{"href":"/tp/images/helpMessage.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/helpMessage.png","alt":"help message"}})])])}
@@ -56,7 +56,7 @@ with(this){return _c('p',[_c('a',{attrs:{"href":"/tp/images/helpMessage.png","ta
 with(this){return _c('p',[_v("Format: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("help")])])}
 },function anonymous(
 ) {
-with(this){return _c('h3',{attrs:{"id":"adding-a-student-add"}},[_v("Adding a Student: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#adding-a-student-add","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h3',{attrs:{"id":"2-adding-a-student-add"}},[_v("2. Adding a Student: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#2-adding-a-student-add","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("Format: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add n/NAME p/PHONE_NUMBER e/EMAIL a/ADDRESS s/SUBJECT…​")])])}
@@ -68,13 +68,13 @@ with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inl
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add n/John Poe p/84920491 e/poe@yuh.com a/RVRC s/Physics")]),_v(" "),_c('a',{attrs:{"href":"/tp/addStudentExample.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/addStudentExample.png","alt":"addStudentExample.png"}})])])])}
 },function anonymous(
 ) {
-with(this){return _c('h3',{attrs:{"id":"listing-all-students-list"}},[_v("Listing all Students : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#listing-all-students-list","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h3',{attrs:{"id":"3-listing-all-students-list"}},[_v("3. Listing all Students : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#3-listing-all-students-list","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("Format: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")])])}
 },function anonymous(
 ) {
-with(this){return _c('h3',{attrs:{"id":"editing-a-student-edit"}},[_v("Editing a Student : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#editing-a-student-edit","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h3',{attrs:{"id":"4-editing-a-student-edit"}},[_v("4. Editing a Student : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#4-editing-a-student-edit","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("Format: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit INDEX [n/NAME] [p/PHONE] [e/EMAIL] [a/ADDRESS] [s/SUBJECT]…​")])])}
@@ -86,7 +86,7 @@ with(this){return _c('ul',[_c('li',[_v("Edits the student at the specified "),_c
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit 1 a/Yale-nus l/")]),_v(" Edits the address of the first person to be "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Yale-nus")]),_v(" and clears all existing lessons.\n"),_c('a',{attrs:{"href":"/tp/editStudentExample.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/editStudentExample.png","alt":"editStudentExample.png"}})])])])}
 },function anonymous(
 ) {
-with(this){return _c('h3',{attrs:{"id":"locating-students-by-name-find"}},[_v("Locating students by name: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#locating-students-by-name-find","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h3',{attrs:{"id":"5-locating-students-by-name-find"}},[_v("5. Locating students by name: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#5-locating-students-by-name-find","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("Format: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find KEYWORD [MORE_KEYWORDS]")])])}
@@ -98,7 +98,7 @@ with(this){return _c('ul',[_c('li',[_v("The search is case-insensitive i.e. "),_
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find poe")]),_v(" returns "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Poe")]),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("John Poe")]),_v(" "),_c('br'),_v(" "),_c('a',{attrs:{"href":"/tp/findCommandExample.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/findCommandExample.png","alt":"findCommandExample.png"}})])])])}
 },function anonymous(
 ) {
-with(this){return _c('h3',{attrs:{"id":"deleting-a-student-delete"}},[_v("Deleting a Student : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#deleting-a-student-delete","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h3',{attrs:{"id":"6-deleting-a-student-delete"}},[_v("6. Deleting a Student : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#6-deleting-a-student-delete","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("Format: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete INDEX")])])}
@@ -110,7 +110,7 @@ with(this){return _c('ul',[_c('li',[_v("Deletes the person at the specified "),_
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" followed by "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete 2")]),_v(" deletes the 2nd student in TutorTrack.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find Jessica Jane")]),_v(" followed by "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete 1")]),_v(" deletes the 1st person in the results of the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find")]),_v(" command.")]),_v(" "),_c('li',[_v("Note that upon deletion the full student list is not displayed, for which the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" command has to be used.")])])}
 },function anonymous(
 ) {
-with(this){return _c('h3',{attrs:{"id":"add-a-lesson-schedule-schedule"}},[_v("Add a lesson schedule : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("schedule")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#add-a-lesson-schedule-schedule","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h3',{attrs:{"id":"7-add-a-lesson-schedule-schedule"}},[_v("7. Add a lesson schedule : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("schedule")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#7-add-a-lesson-schedule-schedule","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("Format : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("schedule INDEX l/LESSON")])])}
@@ -128,7 +128,7 @@ with(this){return _c('p',[_c('img',{attrs:{"width":"1552","alt":"image","src":"h
 with(this){return _c('p',[_c('strong',[_v("Tip:")]),_v(" You must add a student before scheduling their lessons.")])}
 },function anonymous(
 ) {
-with(this){return _c('h3',{attrs:{"id":"mark-a-lesson-schedule-mark"}},[_v("Mark a lesson schedule : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("mark")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#mark-a-lesson-schedule-mark","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h3',{attrs:{"id":"8-mark-a-lesson-schedule-mark"}},[_v("8. Mark a lesson schedule : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("mark")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#8-mark-a-lesson-schedule-mark","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("Format : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("mark INDEX l/LESSON")])])}
@@ -143,7 +143,7 @@ with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inl
 with(this){return _c('p',[_c('img',{attrs:{"width":"1552","alt":"image","src":"https://github.com/AY2324S2-CS2103T-T16-4/tp/assets/99176866/52f1981d-1e73-4aaf-95fb-ba6e8c2db054"}})])}
 },function anonymous(
 ) {
-with(this){return _c('h3',{attrs:{"id":"add-remark-to-a-student-remark"}},[_v("Add remark to a student : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("remark")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#add-remark-to-a-student-remark","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h3',{attrs:{"id":"9-add-remark-to-a-student-remark"}},[_v("9. Add remark to a student : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("remark")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#9-add-remark-to-a-student-remark","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("Format : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("remark INDEX r/REMARK")])])}
@@ -155,7 +155,7 @@ with(this){return _c('ul',[_c('li',[_v("Adds a remark to a student by specifying
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("remark 1 r/Student is very hardworking")]),_v(" would add a remark to the first student on the student list.")])])}
 },function anonymous(
 ) {
-with(this){return _c('h3',{attrs:{"id":"add-a-fee-status-for-a-student-feestatus"}},[_v("Add a fee status for a student: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("feestatus")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#add-a-fee-status-for-a-student-feestatus","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h3',{attrs:{"id":"10-add-a-fee-status-for-a-student-feestatus"}},[_v("10. Add a fee status for a student: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("feestatus")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#10-add-a-fee-status-for-a-student-feestatus","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("Format: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("feeststatus INDEX f/FEE_STATUS")])])}
@@ -167,7 +167,7 @@ with(this){return _c('ul',[_c('li',[_v("Adds a simple tag of a fee status to a s
 with(this){return _c('p',[_v("Example:\n*"),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("feestatus 1 f/Will make payment via paynow within next 3 days")])])}
 },function anonymous(
 ) {
-with(this){return _c('h3',{attrs:{"id":"viewing-a-particular-student-s-lesson-left-click"}},[_v("Viewing a particular student's lesson : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("left-click")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#viewing-a-particular-student-s-lesson-left-click","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h3',{attrs:{"id":"11-viewing-a-particular-student-s-lesson-left-click"}},[_v("11. Viewing a particular student's lesson : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("left-click")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#11-viewing-a-particular-student-s-lesson-left-click","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"clearing-all-entries-clear"}},[_v("Clearing all entries : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("clear")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#clearing-all-entries-clear","onclick":"event.stopPropagation()"}})])}
@@ -176,16 +176,16 @@ with(this){return _c('h3',{attrs:{"id":"clearing-all-entries-clear"}},[_v("Clear
 with(this){return _c('p',[_v("Format: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("clear")])])}
 },function anonymous(
 ) {
-with(this){return _c('h3',{attrs:{"id":"exiting-the-program-exit"}},[_v("Exiting the program : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("exit")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#exiting-the-program-exit","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h3',{attrs:{"id":"12-exiting-the-program-exit"}},[_v("12. Exiting the program : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("exit")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#12-exiting-the-program-exit","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("Format: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("exit")])])}
 },function anonymous(
 ) {
-with(this){return _c('h3',{attrs:{"id":"saving-the-data"}},[_v("Saving the data"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#saving-the-data","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h3',{attrs:{"id":"13-saving-the-data"}},[_v("13. Saving the data"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#13-saving-the-data","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('h3',{attrs:{"id":"editing-the-data-file"}},[_v("Editing the data file"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#editing-the-data-file","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h3',{attrs:{"id":"14-editing-the-data-file"}},[_v("14. Editing the data file"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#14-editing-the-data-file","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("TutorTrack data are saved automatically as a JSON file "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("[JAR file location]/data/addressbook.json")]),_v(".\nAdvanced users are welcome to update data directly by editing that data file.")])}
@@ -209,6 +209,6 @@ with(this){return _c('h2',{attrs:{"id":"command-summary"}},[_v("Command summary"
 with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticClass:"markbind-table table table-bordered table-striped"},[_c('thead',[_c('tr',[_c('th',[_v("Action")]),_v(" "),_c('th',[_v("Format, Examples")])])]),_v(" "),_c('tbody',[_c('tr',[_c('td',[_c('strong',[_v("Add")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add n/NAME p/PHONE_NUMBER e/EMAIL a/ADDRESS s/SUBJECT [l/LESSON]…​")]),_v(" "),_c('br'),_v(" e.g., "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add n/James Ho p/22224444 e/jamesho@example.com a/123, Clementi Rd, 1234665 s/Maths l/Maths |2024-05-03|10:30")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("Clear")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("clear")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("Delete")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete INDEX")]),_c('br'),_v(" e.g., "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete 3")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("Edit")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit INDEX [n/NAME] [p/PHONE_NUMBER] [e/EMAIL] [a/ADDRESS] [l/LESSON]…​")]),_c('br'),_v(" e.g.,"),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit 2 n/James Lee e/jameslee@example.com")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("Fee Status")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("feestatus INDEX f/FEESTATUS")]),_v(" "),_c('br'),_v(" e.g. "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("feestatus 1 f/To pay within next 3 days via paynow")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("Find")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find KEYWORD [MORE_KEYWORDS]")]),_c('br'),_v(" e.g., "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find James Jake")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("Remark")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("remark INDEX r/REMARK")]),_v(" "),_c('br'),_v(" e.g., "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("remark 1 r/Needs extra practice")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("Schedule")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("schedule INDEX l/LESSON")]),_v(" "),_c('br'),_v(" e.g., "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("schedule 1 l/ 20-05-2024|10:30")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("Mark")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("mark INDEX l/LESSON")]),_v(" "),_c('br'),_v(" e.g. "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("mark 1 l/09-09-2024|10:00")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("List")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("Help")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("help")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("Exit")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("exit")])])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Mon, 15 Apr 2024, 21:56:54 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Mon, 15 Apr 2024, 22:18:28 GMT+8]")])])])}
 }];
   
