@@ -59,11 +59,13 @@
         "use-cases": "Use cases",
         "use-case-uc01-add-a-student": "Use case: UC01 Add a student",
         "non-functional-requirements": "Non-Functional Requirements",
-        "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
         "deleting-a-person": "Deleting a person",
-        "saving-data": "Saving data"
+        "saving-data": "Saving data",
+        "appendix-planned-enhancements": "Appendix: Planned Enhancements",
+        "we": "We",
+        "appendix-glossary": "Appendix: Glossary"
       },
       "headingKeywords": {}
     },
